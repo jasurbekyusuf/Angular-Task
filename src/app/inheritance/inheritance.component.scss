@@ -1,0 +1,36 @@
+.container{
+  .content{
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    .main-content{
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    .cart-content{
+      width: 70%;
+    }
+    .input{
+      padding-top: 3.3px;
+    }
+    input{
+      display: block;
+      font-size: 17.5px;
+    }
+    select{
+      font-size: 18px;
+    }
+  }
+  button{
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: 25px 10px 0px 0px;
+  }
+}
+
+
