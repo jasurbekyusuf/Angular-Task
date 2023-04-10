@@ -9,10 +9,6 @@ export const titleLists = [
     name: 'Property Amount',
   },
   {
-    id: 2,
-    name: 'Gender of the person who owns the inheritance',
-  },
-  {
     id: 3,
     name: 'Father',
   },
