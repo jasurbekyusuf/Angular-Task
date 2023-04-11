@@ -17,35 +17,35 @@
 
           <span class="input">
             <select formControlName="hasFather">
-              <option value="no">No</option>
-              <option value="yes">Yes</option>
+              <option [ngValue]="false">No</option>
+              <option [ngValue]="true">Yes</option>
             </select>
           </span>
 
           <span class="input">
             <select formControlName="hasMother">
-              <option value="no">No</option>
-              <option value="yes">Yes</option>
+              <option [ngValue]="false">No</option>
+              <option [ngValue]="true">Yes</option>
             </select>
           </span>
 
           <span class="input">
             <select formControlName="hasHusband">
-              <option value="no">No</option>
-              <option value="yes">Yes</option>
+              <option [ngValue]="false">No</option>
+              <option [ngValue]="true">Yes</option>
             </select>
           </span>
 
           <span class="input">
             <select formControlName="hasWife">
-              <option value="no">No</option>
-              <option value="yes">Yes</option>
+              <option [ngValue]="false">No</option>
+              <option [ngValue]="true">Yes</option>
             </select>
           </span>
-          <span class="input"><input value="0" type="text" placeholder="input" formControlName="numberOfSons"></span>
-          <span class="input"><input value="0" type="text" placeholder="input" formControlName="numberOfDaughters"></span>
-          <span class="input"><input value="0" type="text" placeholder="input" formControlName="numberOfPaternalBrothers"></span>
-          <span class="input"><input value="0" type="text" placeholder="input" formControlName="numberOfPaternalSisters"></span>
+          <span class="input"><input  type="text" placeholder="input" formControlName="numberOfSons"></span>
+          <span class="input"><input  type="text" placeholder="input" formControlName="numberOfDaughters"></span>
+          <span class="input"><input  type="text" placeholder="input" formControlName="numberOfPaternalBrothers"></span>
+          <span class="input"><input  type="text" placeholder="input" formControlName="numberOfPaternalSisters"></span>
           <button type="reset" (click)="clearForm()">Clear</button>
           <button type="submit">Calculate</button>
 
