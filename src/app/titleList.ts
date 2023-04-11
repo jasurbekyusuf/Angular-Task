@@ -39,13 +39,5 @@ export const titleLists = [
   {
     id: 10,
     name: 'Number of Paternal Sister(s)',
-  },
-  {
-    id: 11,
-    name: 'Number of Moternal Brother(s)',
-  },
-  {
-    id: 12,
-    name: 'Number of Moternal Sister(s)',
-  },
+  }
 ];
